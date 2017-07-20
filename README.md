@@ -69,3 +69,4 @@ a seguir mostra a arquitetura do banco de dados para o exemplo de aplicativo.
 Cada um dos serviços possui sua própria base de dados. Além disso, um serviço pode usar um tipo de banco de dados mais adequado às suas necessidades, 
 a chamada arquitetura de persistência poliglota (polyglot persistence architecture).
 
+# API GATEWAY
