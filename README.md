@@ -70,3 +70,6 @@ Cada um dos serviços possui sua própria base de dados. Além disso, um serviç
 a chamada arquitetura de persistência poliglota (polyglot persistence architecture).
 
 # API GATEWAY
+
+Uma API Gateway se caracteriza por ser o ponto de entrada único no sistema. Dessa forma ele encapsula a arquitetura interna do sistema e fornece uma API adaptada a cada cliente, inclusive pode assumir uma série de outras responsabilidades, como autenticação, monitoramento, balanceamento de carga, armazenamento em cache, modelagem de solicitação e gerenciamento, e gerenciamento de resposta estática.
+
