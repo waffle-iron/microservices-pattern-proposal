@@ -73,3 +73,17 @@ a chamada arquitetura de persistência poliglota (polyglot persistence architect
 
 Uma API Gateway se caracteriza por ser o ponto de entrada único no sistema. Dessa forma ele encapsula a arquitetura interna do sistema e fornece uma API adaptada a cada cliente, inclusive pode assumir uma série de outras responsabilidades, como autenticação, monitoramento, balanceamento de carga, armazenamento em cache, modelagem de solicitação e gerenciamento, e gerenciamento de resposta estática.
 
+## Implementando um Gateway de API
+
++ [https://www.nginx.com/solutions/api-gateway/ NGINX PLUX]
++ [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise Promise JavaScript]
++ [https://www.rabbitmq.com/ Invocação de serviços ] Um aplicativo baseado em microservices é um sistema distribuído e deve usar um mecanismo de comunicação entre processos.
++ [http://microservices.io/patterns/server-side-discovery.html Server-side service discovery]
++ [https://github.com/Netflix/Hystrix a biblioteca para manipulação de falhas e latência projetada para isolar pontos de acesso a sistemas remotos.]
+
+# Inter-Process Communication em uma Arquitetura de microserviços
+
++ [https://www.programmableweb.com/news/how-to-design-great-apis-api-first-design-and-raml/how-to/2015/07/10 api first deign]
+
+Você começa o desenvolvimento de um serviço escrevendo a definição da interface e revisando-a com os desenvolvedores do cliente. É somente após a iteração na definição da API que você implementa o serviço. Fazer este projeto na frente aumenta suas chances de construir um serviço que atenda às necessidades de seus clientes.
+
