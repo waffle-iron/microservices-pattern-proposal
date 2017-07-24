@@ -7,7 +7,7 @@
 + Use HTTP headers to Send Metadata
 + Pick the right framework for your Node.js REST API (Cors)
 
-# Express x Restfy
+## Express x Restfy
 
 + "Restify exists to let you build "strict" API services that are maintainable & observable." <br />
  http://restify.com/
@@ -18,7 +18,7 @@
 
 + Avaliar uma readequação da api em GraphQL (https://developer.github.com/v3/)
 
-# Benefícios em usar microservices
+## Benefícios em usar microservices
 
 + Impõe um nível de modularidade
 
@@ -36,7 +36,7 @@
 
 + Permite que cada serviço seja escalado de forma independente. Você pode implantar apenas o número de instâncias <br /> de cada serviço que satisfaçam suas restrições de capacidade e disponibilidade
 
-# Arquitetura para o nosso microservice
+## Arquitetura para o nosso microservice
 
 ## Notas gerais:
 
@@ -64,11 +64,11 @@ O padrão de arquitetura Microservices afeta significativamente a relação entr
 
 Cada um dos serviços possui sua própria base de dados. Além disso, um serviço pode usar um tipo de banco de dados mais adequado às suas necessidades, a chamada arquitetura de persistência poliglota (polyglot persistence architecture).
 
-# API GATEWAY
+## API GATEWAY
 
 Uma API Gateway se caracteriza por ser o ponto de entrada único no sistema. Dessa forma ele encapsula a arquitetura interna do sistema e fornece uma API adaptada a cada cliente, inclusive pode assumir uma série de outras responsabilidades, como autenticação, monitoramento, balanceamento de carga, armazenamento em cache, modelagem de solicitação e gerenciamento, e gerenciamento de resposta estática.
 
-## Implementando um Gateway de API
+### Implementando um Gateway de API
 
 + [https://www.nginx.com/solutions/api-gateway/ NGINX PLUX]
 + [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise Promise JavaScript]
@@ -76,7 +76,7 @@ Uma API Gateway se caracteriza por ser o ponto de entrada único no sistema. Des
 + [http://microservices.io/patterns/server-side-discovery.html Server-side service discovery]
 + [https://github.com/Netflix/Hystrix a biblioteca para manipulação de falhas e latência projetada para isolar pontos de acesso a sistemas remotos.]
 
-# Inter-Process Communication em uma Arquitetura de microserviços
+### Inter-Process Communication em uma Arquitetura de microserviços
 
 + [https://www.programmableweb.com/news/how-to-design-great-apis-api-first-design-and-raml/how-to/2015/07/10 api first deign]
 
