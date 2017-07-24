@@ -60,14 +60,9 @@ O balanceador de carga também pode lidar com outras preocupações, como cache 
 
 #### Banco de Dados
 
-O padrão de arquitetura Microservices afeta significativamente a relação entre o aplicativo eo banco de dados. Em vez de compartilhar um único 
-esquema de banco de dados com outros serviços, cada serviço possui seu próprio esquema de banco de dados. Por um lado, essa abordagem está em 
-desacordo com a idéia de um modelo de dados em toda a empresa. Além disso, muitas vezes resulta em duplicação de alguns dados. No entanto, ter 
-um esquema de banco de dados por serviço é essencial se você deseja se beneficiar de microservices, pois assegura o acoplamento solto. O diagrama 
-a seguir mostra a arquitetura do banco de dados para o exemplo de aplicativo.
+O padrão de arquitetura Microservices afeta significativamente a relação entre o aplicativo eo banco de dados. Em vez de compartilhar um único esquema de banco de dados com outros serviços, cada serviço possui seu próprio esquema de banco de dados. Por um lado, essa abordagem está em desacordo com a idéia de um modelo de dados em toda a empresa. Além disso, muitas vezes resulta em duplicação de alguns dados. No entanto, ter um esquema de banco de dados por serviço é essencial se você deseja se beneficiar de microservices, pois assegura o acoplamento solto. O diagrama a seguir mostra a arquitetura do banco de dados para o exemplo de aplicativo.
 
-Cada um dos serviços possui sua própria base de dados. Além disso, um serviço pode usar um tipo de banco de dados mais adequado às suas necessidades, 
-a chamada arquitetura de persistência poliglota (polyglot persistence architecture).
+Cada um dos serviços possui sua própria base de dados. Além disso, um serviço pode usar um tipo de banco de dados mais adequado às suas necessidades, a chamada arquitetura de persistência poliglota (polyglot persistence architecture).
 
 # API GATEWAY
 
@@ -86,4 +81,3 @@ Uma API Gateway se caracteriza por ser o ponto de entrada único no sistema. Des
 + [https://www.programmableweb.com/news/how-to-design-great-apis-api-first-design-and-raml/how-to/2015/07/10 api first deign]
 
 Você começa o desenvolvimento de um serviço escrevendo a definição da interface e revisando-a com os desenvolvedores do cliente. É somente após a iteração na definição da API que você implementa o serviço. Fazer este projeto na frente aumenta suas chances de construir um serviço que atenda às necessidades de seus clientes.
-
