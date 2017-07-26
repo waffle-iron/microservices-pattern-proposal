@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/henriquechaves/microservices-pattern-proposal.png?label=ready&title=Ready)](https://waffle.io/henriquechaves/microservices-pattern-proposal?utm_source=badge)
 # MICROSERVICES
 
 + Micro-service APIs
